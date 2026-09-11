@@ -77,7 +77,7 @@ jobs:
           repository: alegauss/roadkeep
           path: ${{ env.ROADKEEP_CHECKOUT }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 26
           cache: npm
@@ -242,7 +242,7 @@ jobs:
       # workflows to the job that would have said so.
       - uses: alegauss/roadkeep@main
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 26
           cache: npm
