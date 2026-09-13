@@ -84,7 +84,7 @@ jobs:
 
       # roadkeep declares no dependencies, so the interpreter is the whole install. 3.11 is
       # its floor, `tomllib` being stdlib there.
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
